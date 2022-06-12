@@ -13,8 +13,8 @@ body{
     align-items: center;
 }
 .clock {
-    width: 400px;
-    height: 400px;
+    max-width: 400px;
+    max-height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,5 +25,5 @@ body{
     border: 2px solid rgb(2, 192, 97);
     border-radius: 50%;
     box-shadow: 2px  5px 5px 10px rgb(2, 192, 97);
-    text-shadow: -4px -2px 10px rgba(2,192,97,0.33);
+  
 }
